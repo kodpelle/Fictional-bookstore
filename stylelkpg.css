@@ -1,10 +1,23 @@
+
 a {
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 table {
-    width: 100%;
+    display: flex;
+    justify-content: center;
     border: 1px solid black;
 }
 td {
     padding: 1rem;
+}
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h2 {
+    padding-left: 10%;
+}
+#boktips {
+    padding-left: 10%;
 }
