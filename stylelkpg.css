@@ -1,17 +1,25 @@
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ddd6d6;
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 table {
     display: flex;
-    justify-content: center;
-    border: 1px solid black;
+    justify-content: flex-start;
+    background-color: #aaa6e6;
+    
 }
 td {
     padding: 1rem;
 }
-p {
+.paragrafer {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -20,4 +28,17 @@ h2 {
 }
 #boktips {
     padding-left: 10%;
+}
+img {
+    width: 15%;
+}
+h3, h4, h5, h6 {
+    font-size: larger;
+}
+a:hover{
+    color: white;
+}
+ol, ul {
+    padding: auto;
+    margin: auto;
 }
