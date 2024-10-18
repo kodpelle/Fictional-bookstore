@@ -1,6 +1,10 @@
 a {
     text-decoration: none;
 }
-td{
-    
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+td {
+    padding: 1rem;
 }
